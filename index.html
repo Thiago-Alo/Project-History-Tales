@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>    
+                <li class="logo"></li>
+                <li class="btn"><span class="fas fa-bars"></span></li>
+                <div class="items-nav">
+                    <li>
+                        <a href="#"><span class="menu-word">
+                        <span class="f-word" data-hover="Ad">Ad</span>
+                        <span class="s-word" data-hover="min">min</span>
+                        </span></a>
+                    </li>
+                    <li>
+                        <a href="#"><span class="menu-word">
+                        <span class="f-word" data-hover="Feat">Feat</span>
+                        <span class="s-word" data-hover="ures">ures</span>
+                        </span></a>
+                    </li>
+                    <li>
+                        <a href="#"><span class="menu-word">
+                            <span class="f-word" data-hover="Cont">Cont</span>
+                            <span class="s-word" data-hover="act">act</span>
+                        </span></a>
+                    </li>
+                    <li>
+                        <a href="#"><span class="menu-word">
+                            <span class="f-word" data-hover="Log">Log</span>
+                            <span class="s-word" data-hover="out">out</span>
+                        </span></a>
+                    </li>
+                </div>
+                <li class="search-icon">
+                    <input type="search" placeholder="Search your book">
+                    <label for="" class="icon">
+                        <img src="" alt="">
+                        <!--<span class="fas fa-search"></span>-->
+                        
+                    </label>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!--FILTER GALLERY-->
+        <div class="wrapper"></div>
+            
+            <div class="container-gallery">
+                <img src="/img/logo-removebg-preview.png" alt="">
+                <div class="items">
+                    <img src="/img/raposa2-removebg-preview.png" alt="">
+                    <span class="item active" data-name="all">All</span>
+                    <span class="item" data-name="S">5-6</span>
+                    <span class="item" data-name="P">7-8</span>
+                    <span class="item" data-name="M">9-10</span>
+                    <span class="item" data-name="G">11-12</span>
+                    <span class="item" data-name="X">12+</span>
+                    <img src="/img/raposa4-removebg-preview.png" alt="">
+                </div>
+            </div>
+            <!-- filter books-->
+            <div class="gallery">
+                <!--Inicio do card-->
+                <div class="box-card" data-name="X">
+                    
+                    <div class="card front-face" >
+                        <img src="img/card-img1.png" alt="">
+                    </div>
+                    <div class="card back-face">
+                        <div class="info">
+                            <div class="title">TITLE</div>
+                            <div>Author: Zeca Ballero</div>
+                            <div class="star-radio">
+                                <input type="radio" name="rate" id="rate-5">
+                                <label for="rate-5" class="fas fa-star"></label>
+                                <input type="radio" name="rate" id="rate-4">
+                                <label for="rate-4" class="fas fa-star"></label>
+                                <input type="radio" name="rate" id="rate-3">
+                                <label for="rate-3" class="fas fa-star"></label>
+                                <input type="radio" name="rate" id="rate-2">
+                                <label for="rate-2" class="fas fa-star"></label>
+                                <input type="radio" name="rate" id="rate-1">
+                                <label for="rate-1" class="fas fa-star"></label>
+                            </div>
+                            <p>aorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit
+                                aorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit </p>
+                            <a class="readme" href="https://www.google.pt">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                READ ME</a>
+                        </div>
+                    </div>
+                </div>
+                <!--Fim do card-->
+                 <!--Inicio do card-->
+                 <div class="box-card" data-name="S">                   
+                    <div class="card front-face" >
+                        <img src="img/card-img2.webp" alt="">
+                    </div>
+                    <div class="card back-face">
+                        <div class="info">
+                            <div class="title">TITLE</div>
+                            <div>Author: Zeca Ballero</div>
+                            <div class="star-radio">
+                                <input type="radio" name="rate" id="rate-5">
+                                <label for="rate-5" class="fas fa-star"></label>
+                                <input type="radio" name="rate" id="rate-4">
+                                <label for="rate-4" class="fas fa-star"></label>
+                                <input type="radio" name="rate" id="rate-3">
+                                <label for="rate-3" class="fas fa-star"></label>
+                                <input type="radio" name="rate" id="rate-2">
+                                <label for="rate-2" class="fas fa-star"></label>
+                                <input type="radio" name="rate" id="rate-1">
+                                <label for="rate-1" class="fas fa-star"></label>
+                            </div>
+                            <p>prem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sitadipisicing elit.Lorem ipsum dolor sit </p>
+                            <a class="readme" href="https://www.google.pt">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                READ ME</a>
+                        </div>
+                    </div>
+                </div>
+                <!--Fim do card-->
+                <!--Inicio do card-->
+                <div class="box-card" data-name="X">                   
+                    <div class="card front-face" >
+                        <img src="img/card-img6.jpg" alt="">
+                    </div>
+                    <div class="card back-face">
+                        <div class="info">
+                            <div class="title">TITLE</div>
+                            <div>Author: Zeca Ballero</div>
+                            <div class="star-radio">
+                                <input type="radio" name="rate" id="rate-5">
+                                <label for="rate-5" class="fas fa-star"></label>
+                                <input type="radio" name="rate" id="rate-4">
+                                <label for="rate-4" class="fas fa-star"></label>
+                                <input type="radio" name="rate" id="rate-3">
+                                <label for="rate-3" class="fas fa-star"></label>
+                                <input type="radio" name="rate" id="rate-2">
+                                <label for="rate-2" class="fas fa-star"></label>
+                                <input type="radio" name="rate" id="rate-1">
+                                <label for="rate-1" class="fas fa-star"></label>
+                            </div>
+                            <p>lorem ipsum dolor sit amet consectetur  </p>
+                            <a class="readme" href="https://www.google.pt">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                READ ME</a>
+                        </div>
+                    </div>
+                </div>
+                <!--Fim do card-->
+                <!--Inicio do card-->
+                <div class="box-card" data-name="X">                   
+                    <div class="card front-face" >
+                        <img src="img/card-img3.jpg" alt="">
+                    </div>
+                    <div class="card back-face">
+                        <div class="info">
+                            <div class="title">TITLE</div>
+                            <div>Author: Zeca Ballero</div>
+                            <div class="star-radio">
+                                <input type="radio" name="rate" id="rate-5">
+                                <label for="rate-5" class="fas fa-star"></label>
+                                <input type="radio" name="rate" id="rate-4">
+                                <label for="rate-4" class="fas fa-star"></label>
+                                <input type="radio" name="rate" id="rate-3">
+                                <label for="rate-3" class="fas fa-star"></label>
+                                <input type="radio" name="rate" id="rate-2">
+                                <label for="rate-2" class="fas fa-star"></label>
+                                <input type="radio" name="rate" id="rate-1">
+                                <label for="rate-1" class="fas fa-star"></label>
+                            </div>
+                            <p>lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit </p>
+                            <a class="readme" href="https://www.google.pt">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                READ ME</a>
+                        </div>
+                    </div>
+                </div>
+                <!--Fim do card-->
+                 <!--Inicio do card-->
+                 <div class="box-card" data-name="S">                   
+                    <div class="card front-face" >
+                        <img src="img/card-img4.webp" alt="">
+                    </div>
+                    <div class="card back-face">
+                        <div class="info">
+                            <div class="title">TITLE</div>
+                            <div>Author: Zeca Ballero</div>
+                            <div class="star-radio">
+                                <input type="radio" name="rate" id="rate-5">
+                                <label for="rate-5" class="fas fa-star"></label>
+                                <input type="radio" name="rate" id="rate-4">
+                                <label for="rate-4" class="fas fa-star"></label>
+                                <input type="radio" name="rate" id="rate-3">
+                                <label for="rate-3" class="fas fa-star"></label>
+                                <input type="radio" name="rate" id="rate-2">
+                                <label for="rate-2" class="fas fa-star"></label>
+                                <input type="radio" name="rate" id="rate-1">
+                                <label for="rate-1" class="fas fa-star"></label>
+                            </div>
+                            <p>lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit </p>
+                            <a class="readme" href="https://www.google.pt">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                READ ME</a>
+                        </div>
+                    </div>
+                </div>
+                <!--Fim do card-->
+                <!--Inicio do card-->
+                <div class="box-card" data-name="P">                  
+                    <div class="card front-face" >
+                        <img src="img/card-img5.png" alt="">
+                    </div>
+                    <div class="card back-face">
+                        <div class="info">
+                            <div class="title">TITLE</div>
+                            <div>Author: Zeca Ballero</div>
+                            <div class="star-radio">
+                                <input type="radio" name="rate" id="rate-5">
+                                <label for="rate-5" class="fas fa-star"></label>
+                                <input type="radio" name="rate" id="rate-4">
+                                <label for="rate-4" class="fas fa-star"></label>
+                                <input type="radio" name="rate" id="rate-3">
+                                <label for="rate-3" class="fas fa-star"></label>
+                                <input type="radio" name="rate" id="rate-2">
+                                <label for="rate-2" class="fas fa-star"></label>
+                                <input type="radio" name="rate" id="rate-1">
+                                <label for="rate-1" class="fas fa-star"></label>
+                            </div>
+                            <p>lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit </p>
+                            <a class="readme" href="https://www.google.pt">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                READ ME</a>
+                        </div>
+                    </div>
+                </div>
+                <!--Fim do card-->
+                <!--<div class="image" data-name="watch"><span><img src="img/img3.jpg" alt=""></span></div>-->
+
+            </div>
+        </div>
+        <!--FILTER GALLERY-->
+        <!--OPEN BOOK IN FULLSCREEN-->
+        <!--<div class="preview-box">
+            <div class="details">
+                <span class="title"> Image Category: <p>Not Defined</p></span>
+                <span class="icon fas fa-times"></span>
+            </div>
+            <div class="image-box">
+                <img src="img/img1.jpg" alt="">
+            </div>
+        </div>
+        <div class="shadow">
+            
+        </div>-->
+        <!--END OPEN BOOK IN FULLSCREEN-->
+    </main>
+
+
+
+    <script>
+        //function open and closed menu burguer
+        $('nav ul li.btn span').click(function(){
+            $('nav ul div.items-nav').toggleClass("show-navmenu")
+            $('nav ul li.btn span').toggleClass("show-navmenu")
+        });
+    </script>
+    <script src="script.js"></script>
+
+
+
+
+
+</body>
+</html>
